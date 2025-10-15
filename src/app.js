@@ -24,6 +24,4 @@ app.use("/", indexRouter)
 app.use("/products", productRouter)
 // user route 
 app.use("/users",userRouter)
-
-
 module.exports = app
